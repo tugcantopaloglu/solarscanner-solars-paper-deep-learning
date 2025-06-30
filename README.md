@@ -2,6 +2,8 @@
 
 SolarScanner (short **solars**) is a two‑stage deep‑learning system that **segments buildings** in high‑resolution satellite/drone imagery and then **classifies the damage level** of every detected building.
 
+Check out Huggingface for model. https://huggingface.co/tugcantopaloglu/solarscanner-solars
+
 | Stage                        | Model                         | Dataset      | Metric                  |
 | ---------------------------- | ----------------------------- | ------------ | ----------------------- |
 | **1. Building Segmentation** | U‑Net + ResNet‑50 encoder     | SpaceNet v2  | **IoU 0.766**           |
